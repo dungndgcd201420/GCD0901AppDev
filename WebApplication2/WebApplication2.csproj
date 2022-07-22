@@ -6,17 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Home\Todoes\**" />
-    <Content Remove="Views\Home\Todoes\**" />
-    <EmbeddedResource Remove="Views\Home\Todoes\**" />
-    <None Remove="Views\Home\Todoes\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Controllers\TodoController.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="README.md" />
   </ItemGroup>
 
