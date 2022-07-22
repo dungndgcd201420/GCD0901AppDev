@@ -1,0 +1,16 @@
+﻿@model Todo
+<h1>Create a new Todo</h1>
+<form>
+  <div class="form-group">
+        <input type ="text" placeholder="Description" />
+        <button type="submit">Create</button>
+        </div>
+ </form>
+ 
+<form asp-controller="Todo" asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Description</label>
+        Description:  <input asp-for="Description" placeholder="Insert Description"/> <br/>
+    <button type="submit" class="btn btn-primary">Create</button>
+    </div
+</form>
