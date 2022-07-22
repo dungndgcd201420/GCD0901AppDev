@@ -92,3 +92,5 @@ C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp
 C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\WebApplication2.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Index.cshtml.g.cs
 C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Create.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Edit.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebApplication2\WebApplication2\obj\Debug\netcoreapp3.1\Razor\Views\Todoes\Detail.cshtml.g.cs
