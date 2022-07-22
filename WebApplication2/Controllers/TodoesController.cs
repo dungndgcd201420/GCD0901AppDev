@@ -27,6 +27,7 @@ namespace WebApplication2.Controllers
     {
       return View();
     }
+    [HttpPost]
     public IActionResult Create(Todo todo)
     {
       var newTodo = new Todo
@@ -39,5 +40,19 @@ namespace WebApplication2.Controllers
       return RedirectToAction("Index");
       
     }
+    [HttpGet]
+    public IActionResult Delete(int id)
+    {
+      var todoInDb = _context.Todoes.SingleOrDefault(t => t.Id == id);
+      if (todoInDb is null)
+      {
+        return NotFound();
+      }
+
+      _context.Todoes.Remove(todoInDb);
+      _context.SaveChanges();
+      return RedirectToAction("Index");
+    }
+
   }
 }
